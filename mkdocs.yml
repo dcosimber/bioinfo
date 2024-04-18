@@ -51,8 +51,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
-        permalink: true
-        title: On this page
+      permalink: true
+      title: On this page
 
 extra_css:
   - stylesheets/extra.css
