@@ -28,7 +28,7 @@ bcftools stats ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf.gz > ${OUTPUT_DIR}/PARENT236
 ```
 
 <div align="center">
-    <img src="./logo.png">
+    <img src="./assets/logo.png">
     <p><em>Imagen modificada de <a href="https://www.genome.gov/genetics-glossary/Microbiome">https://www.genome.gov/genetics-glossary/Microbiome</a></em></p>
 </div>
 
