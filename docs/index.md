@@ -53,3 +53,14 @@ bcftools stats ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf.gz > ${OUTPUT_DIR}/PARENT236
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+# Otra
+
+!!! note "Phasellus posuere in sem ut cursus"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+    
