@@ -1,4 +1,4 @@
-site_name: MkDocs Pagina de Prueba
+site_name: Scripts de Dani
 theme:
   name: material
   features:
@@ -11,7 +11,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: es
+  language: en
   palette:
     - scheme: default
       toggle:
