@@ -11,7 +11,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
+  language: es
   palette:
     - scheme: default
       toggle:
@@ -35,6 +35,9 @@ extra:
       link: https://www.linkedin.com/in/daniel-costas-imbernón-512447b0
 
 markdown_extensions: 
+  - toc:
+      permalink: false
+      title: Contenidos
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -50,12 +53,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - toc:
-      permalink: false
-      title: On this page
-
-extra_css:
-  - stylesheets/extra.css
 
 
 copyright: 
