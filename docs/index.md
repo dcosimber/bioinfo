@@ -26,7 +26,9 @@ gatk SelectVariants \
   -O ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf.gz 
 bcftools stats ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf.gz > ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf_stats.txt
 ```
-
+```python
+esto es def import 123 
+```
 
 # Icons and Emojis
 
