@@ -66,7 +66,6 @@ bcftools stats ${OUTPUT_DIR}/PARENT23626_SNPs.g.vcf.gz > ${OUTPUT_DIR}/PARENT236
 
 
 # Otra
-
 !!! note "Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
