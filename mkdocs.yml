@@ -35,9 +35,7 @@ extra:
       link: https://github.com/dcosimber/mkdocs
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/daniel-costas-imbernón-512447b0
-  analytics:
-    provider: google
-    property: "G-3MZGQS8EPS"
+
 
 # Extensions
 markdown_extensions:
