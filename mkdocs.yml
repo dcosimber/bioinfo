@@ -1,6 +1,5 @@
 site_url: https://dcosimber.github.io/bioinfo/
 site_name: Dani Bioinfo
-docs_dir: mk_docs
 theme:
   name: material
   features:
