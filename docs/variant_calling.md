@@ -69,7 +69,7 @@ trimmomatic PE -phred33 \
   ILLUMINACLIP:${ADAPTERS}:2:30:10 SLIDINGWINDOW:4:15 MINLEN:36 \
   &> ${OUTPUT_DIR}/trimmomatic.log
 ```
-  * `PE` - Indica que las lecturas son emparejadas (paired-end).
+* `PE` - Indica que las lecturas son emparejadas (paired-end).
   * `-phred33` - Especifica que los valores de calidad están codificados usando Phred+33.
   * `${INPUT_DIR}/PARENT22076_L3_1.gz` y `${INPUT_DIR}/PARENT22076_L3_2.gz` - Rutas a los archivos de entrada que contienen las lecturas emparejadas.
   * `${OUTPUT_DIR}/PARENT22076_L3_1.trimmed.fq.gz` y `${OUTPUT_DIR}/PARENT22076_L3_2.trimmed.fq.gz` - Rutas a los archivos de salida para las lecturas recortadas que siguen emparejadas.
@@ -78,6 +78,12 @@ trimmomatic PE -phred33 \
   * `SLIDINGWINDOW:4:15` - Indica que se debe usar una ventana deslizante de 4 bases y recortar cuando el promedio de calidad caiga por debajo de 15.
   * `MINLEN:36` - Descarta las lecturas que, después del recorte, son más cortas de 36 bases.
   * `&> ${OUTPUT_DIR}/trimmomatic.log` - Redirige la salida estándar y los errores al archivo especificado para registro.
+
+
+* `PE` - Indica que las lecturas son emparejadas (paired-end).
+* `-phred33` - Especifica que los valores de calidad están codificados usando Phred+33.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
 
 
 
