@@ -97,14 +97,14 @@ bwa mem -M -t $(nproc) -R '@RG\tID:A00709:660:HF5F7DSX7:3\tPL:ILLUMINA\tLB:EKDN2
   > ${OUTPUT_DIR}/PARENT22076-pe.sam
 ```
 Los parámetros utilizados son:
-* `-M`: Marca las divisiones más cortas como secundarias (recomendado cuando se usan herramientas que no procesan bien las alineaciones secundarias).
-* `-t $(nproc)`: Especifica el número de hilos (threads) para usar durante el alineamiento. `$(nproc)` automáticamente usa todos los procesadores disponibles en el nodo de cálculo.
-* `-R`: Adjunta un grupo de lectura (read group) en el encabezado SAM. Los read groups son fundamentales para el análisis de variantes, ya que identifican cada conjunto de lecturas que provienen del mismo experimento.
++ `-M`: Marca las divisiones más cortas como secundarias (recomendado cuando se usan herramientas que no procesan bien las alineaciones secundarias).
++ `-t $(nproc)`: Especifica el número de hilos (threads) para usar durante el alineamiento. `$(nproc)` automáticamente usa todos los procesadores disponibles en el nodo de cálculo.
+- `-R`: Adjunta un grupo de lectura (read group) en el encabezado SAM. Los read groups son fundamentales para el análisis de variantes, ya que identifican cada conjunto de lecturas que provienen del mismo experimento.
     * `ID`: Identificador único del read group.
     * `PL`: Plataforma de secuenciación utilizada (en este caso, ILLUMINA).
     * `LB`: Etiqueta de la biblioteca de ADN.
     * `SM`: Nombre de la muestra.
-* `${REF_GENOME}`: Ruta al genoma de referencia.
+- `${REF_GENOME}`: Ruta al genoma de referencia.
 * `${OUTPUT_DIR}/PARENT22076_L3_1.trimmed.fq.gz` y `${OUTPUT_DIR}/PARENT22076_L3_2.trimmed.fq.gz`: Rutas a los archivos de lecturas emparejadas procesadas previamente.
 * `>${OUTPUT_DIR}/PARENT22076-pe.sam`: Redirige la salida a un archivo SAM en el directorio especificado.
 
