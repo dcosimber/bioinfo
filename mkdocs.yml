@@ -28,6 +28,14 @@ theme:
   favicon: assets/logo.png
   logo: assets/logo.png
 
+nav:
+  - 'Getting Started':
+      - 'Introduction': 'getting_started/introduction.md'
+      - 'Install': 'getting_started/install.md'
+  - 'How it works':
+      - 'Limitations': 'how_it_works/limitations.md'
+      - 'CGO': 'how_it_works/cgo.md'
+
 extra:
   social:
     - icon: fontawesome/brands/github-alt
