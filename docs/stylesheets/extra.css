@@ -1,3 +1,5 @@
-.social-links .fa {
-    font-size: 24px; /* Ajusta el tamaño a tu preferencia */
-}
+.md-header__logo {
+    height: 100px; /* Ajusta la altura a tu preferencia */
+    width: auto;  /* Mantiene la proporción del logo */
+  }
+  

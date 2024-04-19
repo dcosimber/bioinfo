@@ -26,6 +26,7 @@ theme:
       primary: teal
       accent: lime
   favicon: assets/logo.png
+  logo: assets/logo.png
 
 extra:
   social:
