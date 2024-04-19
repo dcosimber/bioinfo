@@ -45,7 +45,9 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
-      permalink: true
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
