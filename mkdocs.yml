@@ -35,9 +35,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/daniel-costas-imbernón-512447b0
 
-extra_javascript:
-  - javascripts/custom.js
-  
+
 # Extensions
 markdown_extensions:
   - abbr
