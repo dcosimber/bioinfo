@@ -1,4 +1,6 @@
-site_name: Scripts de Dani
+site_url: https://dcosimber.github.io/bioinfo/
+site_name: Dani Bioinfo
+docs_dir: mk_docs
 theme:
   name: material
   features:
@@ -25,30 +27,40 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
-  favicon: assets/logo.png
   logo: assets/logo.png
+extra_css:
+    - stylesheets/custom.css
+nav:
+- Home: index.md
+- Level 101:
+    - Fundamentals Series:
+        - Linux Basics:
+            - Introduction: level101/linux_basics/intro.md
 
+nav:
+- Home: index.md
+- Level 101:
+    - Fundamentals Series:
+        - Linux Basics:
+            - Introduction: level101/linux_basics/intro.md
+            - Command Line Basics: level101/linux_basics/command_line_basics.md
+        - Linux Networking:
+            - Introduction: level101/linux_networking/intro.md
+            - HTTP: level101/linux_networking/http.md
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/dcosimber/mkdocs
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/daniel-costas-imbernón-512447b0
-
-
-# Extensions
 markdown_extensions:
+
+  # Python Markdown
   - abbr
   - admonition
   - attr_list
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - footnotes
   - md_in_html
   - toc:
-      permalink: "true"
+      permalink: true
+
+  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -56,35 +68,16 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      normalize_issue_symbols: true
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      auto_append:
-        - includes/mkdocs.md
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
