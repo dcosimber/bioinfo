@@ -41,7 +41,7 @@ markdown_extensions:
   - attr_list
   - def_list
     - pymdownx.tasklist:
-      custom_checkbox: true
+        custom_checkbox: true
   - footnotes
   - md_in_html
   - toc:
