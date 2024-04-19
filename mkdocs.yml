@@ -1,4 +1,5 @@
-site_url: https://dcosimber.github.io/bioinfo/
+site_url: https://dcosimber.github.io/
+docs_dir: mkdocs
 site_name: Dani Bioinfo
 theme:
   name: material
