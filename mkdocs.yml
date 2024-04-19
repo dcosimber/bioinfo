@@ -29,12 +29,12 @@ theme:
   logo: assets/logo.png
 
 nav:
-  - 'Getting Started':
-      - 'Introduction': 'getting_started/introduction.md'
-      - 'Install': 'getting_started/install.md'
-  - 'How it works':
-      - 'Limitations': 'how_it_works/limitations.md'
-      - 'CGO': 'how_it_works/cgo.md'
+  - Getting Started:
+      - getting_started/introduction.md
+      - getting_started/install.md
+  - How it works:
+      - how_it_works/limitations.md
+      - how_it_works/cgo.md'
 
 extra:
   social:
@@ -42,7 +42,9 @@ extra:
       link: https://github.com/dcosimber/mkdocs
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/daniel-costas-imbernón-512447b0
-
+  analytics:
+    provider: google
+    property: "G-3MZGQS8EPS"
 
 # Extensions
 markdown_extensions:
