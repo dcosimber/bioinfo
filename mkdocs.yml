@@ -28,13 +28,6 @@ theme:
   favicon: assets/logo.png
   logo: assets/logo.png
 
-nav:
-  - Getting Started:
-      - getting_started/introduction.md
-      - getting_started/install.md
-  - How it works:
-      - how_it_works/limitations.md
-      - how_it_works/cgo.md'
 
 extra:
   social:
